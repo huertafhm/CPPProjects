@@ -47,8 +47,8 @@ int * multiplyOtherPositions(){         // The return type is a pointer since C+
 int main()
 {
     int *P = multiplyOtherPositions();
-    //int sizeP = sizeof(P)/sizeof(int);        // Size of pointer is 8 or 4, depending on processor
-    //cout<<"size of P = "<<sizeP<<endl;
+    int sizeP = sizeof(P)/sizeof(int);        // Size of pointer is 8 or 4, depending on processor
+    cout<<"size of P = "<<sizeP<<endl;
     
     for (int i = 0; i < sizeA; i++){
         cout<<"P["<<i<<"] = "<<P[i]<<endl;
