@@ -31,7 +31,7 @@ int * multiplyOtherPositions(){         // The return type is a pointer since C+
     cout<<"size of R = "<<sizeR<<endl;
     
     for (int i = 0; i < sizeR; i++){
-        //cout << "----------In i = " <<i<< endl;
+        cout << "----------In i = " <<i<< endl;
         for (int j = 0; j < sizeR; j++){
             if (i != j){
                 //cout << "In j = " <<j<< "; " << A[j] << endl;
